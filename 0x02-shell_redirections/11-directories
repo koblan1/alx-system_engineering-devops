@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 /dir | wc -l
+find . -type f -printf "." | wc -l
