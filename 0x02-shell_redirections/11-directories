@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name 1 '.' | wc -1
+ls -1 /dir | wc -l
